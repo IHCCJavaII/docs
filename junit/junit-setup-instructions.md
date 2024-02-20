@@ -84,3 +84,7 @@ public void whenDefaultConstructorIsCalled_thenDefaultValuesAreCorrect() {
 ```
 
 A test should only test one scenario at a time, and one specific part of the class. You should create many test methods inside your test class to test as many scenarios and methods in your classes as possible.
+
+## Running tests
+
+You run your tests by pressing the green play button in IntelliJ when the test class is open. Or you can right-click inside the test class or on the test class in the project explorer, and run the tests. You can run invidiual test methods inside the test class by selecting the green play button next to each method.
