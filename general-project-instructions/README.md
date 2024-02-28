@@ -45,7 +45,7 @@ and select open. You now have the project open in IntelliJ and ready to make cha
 
 ## Step 4: Project requirements, make your changes and test
 
-Follow the directions below to complete the assignment.
+Follow the directions in the README of the assignment to complete the assignment.
 Test your project by running it and verifying it works as expected.
 
 ## Step 5: Push changes to GitHub
