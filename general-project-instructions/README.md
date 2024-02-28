@@ -31,7 +31,9 @@ Use your terminal/git bash on your computer and navigate to
 wherever you save your Java projects. Once you are where you want
 to copy the project, type:
 
+```
 git clone https://copiedurl
+```
 
 Where the copied URL is the one you copied from the green code button
 on GitHub.
@@ -56,15 +58,19 @@ push your changes to GitHub.
 In IntelliJ there's a terminal already open you can use, or you can do this in
 your own terminal as long as you navigated to the project directory.
 
-In the terminal type the following commands:<br>
+In the terminal type the following commands one at a time:
+```
+git add .
+```
+(Don't forget the dot above!)
+```
+git commit -m "summary of your changes"
+```
+```
+git push
+```
 
-git add .<br>
-
-git commit -m "summary of your changes"<br>
-
-git push<br>
-
-At any point you can type: git status
+At any point you can type: `git status`
 This will give you the status of your changes, whether you added
 or committed them already.
 
@@ -77,18 +83,18 @@ is a git terminology that means you are wanting to submit your changes back to t
 you forked from (mine). This gives us a great layout for reviewing the changes you made
 and checking that the automated tests passed.
 
-To do this you will start with your repo open in GitHub. Click on the Pull Request tab located
+To do this you will start with your repo open in GitHub. Click on the `Pull Request` tab located
 on the top bar.
 
-Click "New pull request".
+Click `New pull request`
 
 By default, the branches will be main and will target your main branch to merge into my repo's main branch.
-You can accept this and click "Create pull request".
+You can accept this and click `Create pull request`
 
-Give it a descriptive title and add a description of your changes. Then click "Submit pull request".
+Give it a descriptive title and add a description of your changes. Then click `Submit pull request`
 
 This will now show up on my side, and I can review your changes. It will also kick off an automated pipeline
-to run tests. Give it a few minutes, and you'll see a checkmark next to the job.
+to run tests (if we set that up for this project). Give it a few minutes, and you'll see a checkmark next to the job.
 
 ## Step 7: Turn it in
 
