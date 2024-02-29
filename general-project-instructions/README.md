@@ -42,8 +42,7 @@ Hit enter and the project will clone to your computer.
 
 ## Step 3: Open the project in IntelliJ
 
-Open IntelliJ and select open. Navigate to the project folder
-and select open. You now have the project open in IntelliJ and ready to make changes!
+Open IntelliJ and create a new project in the folder that was cloned down. You now have the project open in IntelliJ and ready to make changes!
 
 ## Step 4: Project requirements, make your changes and test
 
@@ -99,7 +98,7 @@ to run tests (if we set that up for this project). Give it a few minutes, and yo
 ## Step 7: Turn it in
 
 I will review the code and tests through the pull request, but to make sure I don't miss anything please
-submit your repo URL to the dropbox in MyHills. You can get this URL by navigating to your repo
+submit your pull request URL to the dropbox in MyHills. You can get this URL by navigating to your pull request
 and copying the URL in the browser.
 
 Also submit a zip file of your entire project used for backup in case something happens with the GitHub repo.
