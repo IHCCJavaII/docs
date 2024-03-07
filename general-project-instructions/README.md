@@ -16,7 +16,7 @@ and make sure you are logged into your GitHub account. It will
 prompt you with some default settings for this new copied repo,
 and you can accept and fork the project.
 
-You now have your own repo with a copy of my starter code for this project.
+You now have your own repo with a copy of whatever was in my repo.
 
 **Important last repo setup step!!** Go to the Actions tab on your forked repo and click the green button that says "I understand..." to allow github actions to run. If you don't see that button after clicking Actions, then you're good to go.
 
@@ -42,7 +42,9 @@ Hit enter and the project will clone to your computer.
 
 ## Step 3: Open the project in IntelliJ
 
-Open IntelliJ and create a new project in the folder that was cloned down. You now have the project open in IntelliJ and ready to make changes!
+If no source files exist, open IntelliJ and create a new project in the folder that was cloned down. You now have the project open in IntelliJ and ready to make changes!
+
+(If an intelliJ project with source code was provided, you can open the cloned folder as an IntelliJ project)
 
 ## Step 4: Project requirements, make your changes and test
 
