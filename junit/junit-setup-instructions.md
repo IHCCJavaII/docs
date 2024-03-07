@@ -88,3 +88,23 @@ A test should only test one scenario at a time, and one specific part of the cla
 ## Running tests
 
 You run your tests by pressing the green play button in IntelliJ when the test class is open. Or you can right-click inside the test class or on the test class in the project explorer, and run the tests. You can run invidiual test methods inside the test class by selecting the green play button next to each method.
+
+## Running tests in the pipeline
+
+A pipeline is an automated sequence of scripts that run when triggered, usually on a push or pull request open. The actual job configurations will not be covered in this class, but there is one configuration you need to in your `pom.xml` to get this to work.
+
+Add the following inside your `pom.xml` below the dependencies, but inside the `<project>` tag:
+```
+<!-- This is necessary to force the correct version of surefire-->
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.2.2</version>
+            </plugin>
+        </plugins>
+    </build>
+```
+
+This allows the script that runs and publishes the test report to work correctly.
