@@ -6,4 +6,4 @@ Here are some helpful guides for using JUnit 5 inside your Java projects.
 
 - [Mocking Scanner Input in JUnit Tests](mocking-scanner-instructions.md)
 
-- [Testing Exceptionswith JUnit](testing-exceptions.md)
+- [Testing Exceptions with JUnit](testing-exceptions.md)
