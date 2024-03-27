@@ -31,7 +31,7 @@ To serialize an object of the `Bike` class in the above example, we will use `Fi
 `FileOutputStream` takes a path to the file. If the file doesn't exist, it will be created. To create the file in the root of your project, just type the filename. The `.ser` extension is used to indicate a serialized file.
 
 ```
-FileOutputStream fileOutputStream = new FileOutputStream(bikes.ser);
+FileOutputStream fileOutputStream = new FileOutputStream("bikes.ser");
 ```
 
 `ObjectOutputStream` will actually do the writing. It takes the newly created `FileOutputStream` to instantiate. Once the object is instantiated, you can use it's methods to write your file.
