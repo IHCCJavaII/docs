@@ -57,7 +57,7 @@ Now that you have a serialized file you can write code that will read from the `
 It's a very similar format to serializing. Instead of using classes with output in the name, they will have input in the name.
 
 ```
-FileInputStream fileInputStream = new FileInputStream(bikes.ser);
+FileInputStream fileInputStream = new FileInputStream("bikes.ser");
 ObjectInputStream objectInputStream = new ObjectInputStream(fileInputStream);
 
 // The (Bike) is typecasting what comes from the input stream into a Bike
