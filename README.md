@@ -6,3 +6,5 @@ Documentation and help for Java II
 - [JUnit Guides](junit/README.md)
 
 - [Serialization Example](files/serialization-instructions.md)
+
+- [Using compareTo Example](interfaces/compare-to-instructions.md)
