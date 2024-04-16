@@ -8,3 +8,5 @@ Documentation and help for Java II
 - [Serialization Example](files/serialization-instructions.md)
 
 - [Using compareTo Example](interfaces/compare-to-instructions.md)
+
+- [Using Enums](general-topics/enums.md)
