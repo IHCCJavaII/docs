@@ -1,12 +1,12 @@
-# Using JUnit to test JavaFX project using TextFX
+# Using JUnit to test JavaFX project using TestFX
 
-Normal JUnit tests will not work to test methods that rely on JavaFX components. This is because JavaFX is a special environment, and unless that environment starts up correctly those JavaFX components will not be initialized.
+Normal `JUnit` tests will not work to test methods that rely on `JavaFX` components. This is because `JavaFX` is a special environment, and unless that environment starts up correctly those `JavaFX` components will not be initialized.
 
-But we still need to test JavaFX projects just as much as other projects - what can we do?!
+But we still need to test `JavaFX` projects just as much as other projects - what can we do?!
 
-Thankfully, developers have solved this by creating a library of code that adds on to JUnit and allows you to properly unit test JavaFX projects. It also adds cool features for testing the UI components. It's called `TextFX`.
+Thankfully, developers have solved this by creating a library of code that adds on to `JUnit` and allows you to properly unit test `JavaFX` projects. It also adds cool features for testing the UI components. It's called `TestFX`.
 
-## Setting up TextFX
+## Setting up TestFX
 
 Two depedencies need to be added to your `pom.xml` file. The following versions are the latest as of writing this, but you should check for the latest versions if you have any issues.
 
@@ -29,7 +29,7 @@ Two depedencies need to be added to your `pom.xml` file. The following versions 
 
 ## Writing your first test with JUnit and TestFX
 
-There are two main pieces using `TextFX` for getting your `JUnit` tests to work with `JavaFX`.
+There are two main pieces using `TestFX` for getting your `JUnit` tests to work with `JavaFX`.
 
 Change your test class to extend `Application`, just like you do in your main application.
 
