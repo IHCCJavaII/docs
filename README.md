@@ -10,3 +10,5 @@ Documentation and help for Java II
 - [Using compareTo Example](interfaces/compare-to-instructions.md)
 
 - [Using Enums](general-topics/enums.md)
+
+- [Using JavaFX](general-topics/javafx.md)
