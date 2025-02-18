@@ -9,3 +9,5 @@ Here are some helpful guides for using JUnit 5 inside your Java projects.
 - [Testing for System.out.println in JUnit Tests](testing-system-out-instructions.md)
 
 - [Testing Exceptions with JUnit](testing-exceptions.md)
+  
+- [Testing JavaFX with TestFX](testfx.md)
