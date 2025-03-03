@@ -82,3 +82,27 @@ You can use built-in `TestFX` methods to examine and interact with `JavaFX` grap
 ```
 
 Read more about TestFX and the available methods in the [documentation here](https://testfx.github.io/TestFX/)
+
+## Using ID selectors
+
+Sometimes you will have multiple of the same kind of element on your JavaFX scene and no way for TestFX to know which one you're talking about. For example, if you have three buttons on the screen you can't just use `verifyThat(".button"` because it won't know which one.
+
+The simplest way to solve this is by giving IDs to the elements you wish to test.
+
+Back inside your normal Java code you can add an ID to any element by using the method `setId("idNameHere")`. This works on visible elements like buttons and shapes, but also on layout controls.
+
+Example:
+```java
+    Button submitButton = new Button("Submit");
+    submitButton.setId("submitButton");
+```
+
+Once you have an ID set, back in your TestFX code you can use that ID to select just that element. It will be the a pound symbol and the name of the ID you gave it.
+
+Example:
+```java
+   verifyThat("#submitButton"), hasText("Submit"));
+   clickOn("#submitButton");
+```
+
+***Note*** Doesn't that look familiar? Like `CSS`? That's because it is! JavaFX can be styled using CSS style sheets. [Learn more about CSS with JavaFX here](https://www.tutorialspoint.com/javafx/javafx_css.htm)
